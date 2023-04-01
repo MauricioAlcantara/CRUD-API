@@ -65,7 +65,10 @@ A API possui os seguintes endpoints:
 O projeto é organizado da seguinte forma:
 
 - `controllers`: Contém os controladores responsáveis pela lógica de negócio da API.
+- `loaders`: Contém os módulos de carregamento das configurações, incluindo a conexão com o banco de dados MongoDB.
 - `models`: Contém os esquemas de dados e modelos do MongoDB.
+- `app.js`: Contém a configuração do servidor Express e importa as rotas da API.
+- `index.js`: Inicia o servidor e executa os módulos de carregamento.
 - `routes`: Contém as rotas da API.
 
 ## Exemplo de uso
